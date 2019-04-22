@@ -1,3 +1,14 @@
+# Usage
+
+```
+$git clone https://github.com/Eratosthenes/amazon_sales_tracker.git
+$cd amazon_sales_tracker
+$virtualenv env
+$source env/bin/activate
+$pip install -r requirements.txt
+$python3 run.py
+```
+
 # Components
 ### Fetch and deposit
 - Call amazon API for specified ASIN
